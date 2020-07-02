@@ -42,17 +42,17 @@ VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-6.1.10.vbox-extpa
   6. Open the settings of the VM > Display > Increase video memory to 128 MB
      (for some reason with the default video memory the keyboard doesn't get captured
      by the guest)
-  7. Start the new VM: Doble click on the newly created with the name given above
+  7. Start the new VM: Double click on the newly created with the name given above
   8. Select the image downloaded from Ubuntu
 * _Guest_: Install Ubuntu in a VirtualBox VM, including the guest additions:
   1. Select _Install Ubuntu_
-  2. Keyboard layout English (UK)/English (UK)  
+  2. Keyboard layout English (US)/English (US)  
   3. Minimal installation
   4. Leave _Download updates while installing Ubuntu_ selected
   5. Select _Install third-party software_
   6. Leave selected _Erase disk and install Ubuntu_
   7. Select Advanced Features and _Use LVM with the new Ubuntu installation_, but leave Encrypt the new Ubuntu installation for security unselected.
-  8. Time zone London
+  8. Time zone Chicago
   9. User _vagrant_ with password _vagrant_. Hostname _vagrant_. Require password to log in.
   10. Once the installation is complete, reboot
   11. Install updates, reboot
