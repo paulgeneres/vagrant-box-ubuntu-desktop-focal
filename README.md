@@ -61,11 +61,11 @@ VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-6.1.10.vbox-extpa
 * _Guest_: Run some scripts to make the image Vagrant-friendly
   1. Run [prepare-base-box-root.bash](prepare-base-box-root.bash) as root (requires password for sudo)
   ```
-  wget https://raw.githubusercontent.com/jcaraballo/vagrant-box-ubuntu-desktop-focal/master/prepare-base-box-root.bash -O - | sudo bash
+  wget https://raw.githubusercontent.com/paulgeneres/vagrant-box-ubuntu-desktop-focal/master/prepare-base-box-root.bash -O - | sudo bash
   ```
   2. Run [prepare-base-box-vagrant.bash](prepare-base-box-vagrant.bash) as the vagrant user
   ```
-  wget https://raw.githubusercontent.com/jcaraballo/vagrant-box-ubuntu-desktop-focal/master/prepare-base-box-vagrant.bash -O - | bash
+  wget https://raw.githubusercontent.com/paulgeneres/vagrant-box-ubuntu-desktop-focal/master/prepare-base-box-vagrant.bash -O - | bash
   ```
   3. Send the shutdown signal and turn off the VM
 
@@ -105,8 +105,6 @@ VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-6.1.10.vbox-extpa
   8. On the appropriate version: Release > Release version
 
 
-## Binary
-[Vagrant Cloud: jcaraballo/ubuntu-desktop-focal](https://app.vagrantup.com/jcaraballo/boxes/ubuntu-desktop-focal)
-
-## Usage example
-See [vagrant-ubuntu-20.04-dev](https://github.com/jcaraballo/vagrant-ubuntu-20.04-dev)
+## Thanks
+To jcaraballo for doing all the heavy lifting and writing a great README that is actually worth reading.
+https://github.com/jcaraballo/vagrant-box-ubuntu-desktop-focal
