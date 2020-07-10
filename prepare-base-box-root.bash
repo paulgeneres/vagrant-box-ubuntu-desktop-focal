@@ -11,3 +11,5 @@ apt-get -y upgrade
 apt-get -y autoremove
 
 apt-get -y install openssh-server
+
+apt-get clean
