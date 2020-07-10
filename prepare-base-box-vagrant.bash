@@ -5,9 +5,6 @@ chmod 700 ~/.ssh
 wget -O - https://raw.githubusercontent.com/hashicorp/vagrant/master/keys/vagrant.pub >> ~/.ssh/authorized_keys
 chmod 644 ~/.ssh/authorized_keys
 
-rm -f ~/.bash_history
-rm -rf ~/.local/share/mc
-
 # disable screen time outs
 gsettings set org.gnome.desktop.session idle-delay 0
 
@@ -25,3 +22,8 @@ gsettings set org.gnome.shell.extensions.desktop-icons show-trash false
 
 cat /dev/null > ~/.bash_history
 history -c
+
+# set dark gtk theme
+gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-dark'
+gsettings set org.gnome.desktop.interface icon-theme 'Yaru'
+gsettings set org.gnome.desktop.wm.preferences theme 'Adwaita'
