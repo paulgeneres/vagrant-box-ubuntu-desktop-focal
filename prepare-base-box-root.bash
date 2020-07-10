@@ -13,3 +13,6 @@ apt-get -y autoremove
 apt-get -y install openssh-server
 
 apt-get clean
+
+cat /dev/null > ~/.bash_history
+history -c
