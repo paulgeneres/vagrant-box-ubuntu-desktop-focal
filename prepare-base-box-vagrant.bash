@@ -20,10 +20,10 @@ gsettings set org.gnome.desktop.background primary-color '#000000'
 gsettings set org.gnome.shell.extensions.desktop-icons show-home false
 gsettings set org.gnome.shell.extensions.desktop-icons show-trash false
 
-cat /dev/null > ~/.bash_history
-history -c
-
 # set dark gtk theme
 gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-dark'
 gsettings set org.gnome.desktop.interface icon-theme 'Yaru'
 gsettings set org.gnome.desktop.wm.preferences theme 'Adwaita'
+
+cat /dev/null > ~/.bash_history
+history -c
